@@ -71,7 +71,7 @@
   color: red;
 }
 
-.items-container {
+.item-list-container {
   padding: 1rem;
   background-color: #3498db;
   color: white;
@@ -81,6 +81,28 @@
   border-radius: 1rem;
   gap: 1rem;
   place-items: center;
+}
+
+.items-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.producto {
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  color: #3498db;
+  padding: 1rem;
+  margin: 1rem;
+}
+.producto h2 {
+  font-weight: 800;
+}
+.producto img {
+  border-radius: 0.5rem;
 }
 
 * {
